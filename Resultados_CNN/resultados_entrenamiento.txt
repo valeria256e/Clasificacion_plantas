@@ -1,0 +1,26 @@
+======= MÉTRICAS POR ÉPOCA =======
+Época 1: Train Loss = 0.6460, Val Loss = 0.2958
+Época 2: Train Loss = 0.2856, Val Loss = 0.1928
+Época 3: Train Loss = 0.2085, Val Loss = 0.1487
+Época 4: Train Loss = 0.1717, Val Loss = 0.1263
+Época 5: Train Loss = 0.1533, Val Loss = 0.1110
+
+======= MÉTRICAS FINALES =======
+Accuracy final: 0.9735
+Precision macro: 0.9730
+Recall macro: 0.9732
+F1-score macro: 0.9731
+
+======= REPORTE POR CLASE =======
+                                       precision    recall  f1-score   support
+
+  CUPRESSUS_MACROCARPA_Estrés_Hídrico       0.99      0.98      0.98       341
+     CUPRESSUS_MACROCARPA_Phytophtora       0.98      0.99      0.99       334
+           CUPRESSUS_MACROCARPA_Sanas       0.99      1.00      0.99       326
+CUPRESSUS_SEMPERVIRENS_Estrés_Hídrico       0.93      0.94      0.93       297
+   CUPRESSUS_SEMPERVIRENS_Phytophtora       0.96      0.93      0.95       328
+         CUPRESSUS_SEMPERVIRENS_Sanas       1.00      1.00      1.00       297
+
+                             accuracy                           0.97      1923
+                            macro avg       0.97      0.97      0.97      1923
+                         weighted avg       0.97      0.97      0.97      1923
